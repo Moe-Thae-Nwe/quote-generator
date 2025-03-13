@@ -1,5 +1,5 @@
-import React from "https://esm.sh/react";
-import ReactDOM from "https://esm.sh/react-dom/client";
+const { useState } = React;
+const { createRoot } = ReactDOM;
 
 function App() {
   const btn = {
